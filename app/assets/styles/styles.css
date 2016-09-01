@@ -1,7 +1,19 @@
+$mainBlue: #2f5572;
+
 body {
 	margin: 0;
+	padding: 25px;
+	columns: 300px 2;
 }
 
 h1 {
+	color: $mainBlue;
 	font-weight: 700;
+}
+
+.box {
+	a {
+		display: block;
+		padding: 5px;
+	}
 }
